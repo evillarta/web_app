@@ -1,4 +1,4 @@
 # README
 
-This is the my first repository of on ruby on Rails
+This repository for the first web_app of the Complete Ruby on Rails Developer Course
 
