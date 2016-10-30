@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Programmers Code</title>
-    <%= csrf_meta_tags %>
+    <title>Programmers Code_</title>
+    	<%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+   	 <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
 
   </head>
 
   <body>
+  	<%= render 'layouts/navigation' %>
+    	<%= render 'layouts/messages' %>
 
-    <%= render 'layouts/messages' %>
-    <%= yield %>
+   	 <div>
+    		<%= yield %>
+    	</div>
+    
 
   </body>
 </html>
