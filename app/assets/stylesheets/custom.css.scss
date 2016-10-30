@@ -1,7 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.logo{
+.logo {
 	float: left;
 	font-size: 1.5em;
 	text-transform: uppercase;
@@ -9,7 +9,7 @@
 	font-weight: bold;
 }
 /* header section */
-.jumbotron{
+.jumbotron {
 	background-image: asset-url('codes1.jpeg');
 	background-repeat: no-repeat;
   	background-attachment: scroll;
@@ -22,32 +22,32 @@
   	width: 100%;
   	margin-top:  -55px;
 }
-.jumbotron .container h1{
+.jumbotron .container h1 {
 	color: #36D7B7;
 	font-weight: 700;
 
 }
-.jumbotron .container{
+.jumbotron .container {
 	color: #fff;
 	background: rgba(0,0,0,0.1);
 	margin-bottom: 5%;
 	margin-top: 5%;
 }
-.article-actions{
+.article-actions {
 	border-top: 1px solid #eaeaea;
 	padding-top: 5px;
 }
-.article-title{
+.article-title {
 	font-weight: bold;
 	font-size: 1.5em;
 }
-.article-body{
+.article-body {
 	border-top: 1px solid #eaeaea;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 /* footer style */
-.footer{
+.footer {
 	margin-top: 45px;
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
@@ -56,6 +56,6 @@
 	list-style: none;
 	float: right;
 }
-.description{
+.description {
 	margin-top: 0px;
 }
