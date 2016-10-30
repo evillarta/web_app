@@ -7,6 +7,7 @@
     	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
+    	<!-- flatly ui customize theme -->
    	 <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
 
   </head>
@@ -15,7 +16,7 @@
   	<%= render 'layouts/navigation' %>
     	<%= render 'layouts/messages' %>
 
-   	 <div>
+   	 <div class="container">
     		<%= yield %>
     	</div>
     	
