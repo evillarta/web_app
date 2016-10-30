@@ -1,3 +1,16 @@
+/* sass scheme */
+
+$primary-color:		#36D7B7;
+
+// Defining values
+$screen-sm-min: 		768px;
+$screen-xs-max:		 ($screen-sm-min - 1);
+$screen-md-min:		 992px;
+$screen-sm-max: 		($screen-md-min - 1);
+$screen-lg-min: 		1200px;
+$screen-md-max: 		($screen-lg-min - 1);		
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -20,10 +33,9 @@
                   -o-background-size: cover;
   	height: 100%;
   	width: 100%;
-  	margin-top:  -55px;
 }
 .jumbotron .container h1 {
-	color: #36D7B7;
+	color: $primary-color;
 	font-weight: 700;
 
 }
