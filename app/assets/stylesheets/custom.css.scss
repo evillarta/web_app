@@ -10,6 +10,38 @@
 	letter-spacing: -1px;
 	font-weight: bold;
 }
- .center{
-	text-align: center;
+/* header section */
+.jumbotron{
+	background-image: asset-url('codes1.jpeg');
+	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-position: center center;
+                 -webkit-background-size: cover;
+                 -moz-background-size: cover;
+  	background-size: cover;
+                  -o-background-size: cover;
+  	height: 100%;
+  	width: 100%;
+  	margin-top:  -55px;
+}
+.jumbotron .container h1{
+	color: #36D7B7;
+	font-weight: 700;
+
+}
+.jumbotron .container{
+	color: #fff;
+	background: rgba(0,0,0,0.1);
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #22313F;
+}
+.footer ul {
+	list-style: none;
+	float: right;
 }
