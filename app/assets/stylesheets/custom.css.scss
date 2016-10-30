@@ -35,6 +35,11 @@
 	margin-bottom: 5%;
 	margin-top: 5%;
 }
+.article-actions{
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+/* footer style */
 .footer{
 	margin-top: 45px;
 	padding-top: 5px;
@@ -43,4 +48,7 @@
 .footer ul {
 	list-style: none;
 	float: right;
+}
+.description{
+	margin-top: 0;
 }
