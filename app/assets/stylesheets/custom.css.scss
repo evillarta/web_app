@@ -1,6 +1,7 @@
 /* sass scheme */
 
 $primary-color:		#36D7B7;
+$border-color:			#eaeaea;
 
 // Defining values
 $screen-sm-min: 		768px;
@@ -46,7 +47,7 @@ $screen-md-max: 		($screen-lg-min - 1);
 	margin-top: 5%;
 }
 .article-actions {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid $border-color;
 	padding-top: 5px;
 }
 .article-title {
@@ -54,15 +55,19 @@ $screen-md-max: 		($screen-lg-min - 1);
 	font-size: 1.5em;
 }
 .article-body {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid $border-color;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+.article-meta-details{
+	border-top: 1px solid $border-color;
+	margin-top: 15px;
 }
 /* footer style */
 .footer {
 	margin-top: 45px;
 	padding-top: 5px;
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid $border-color;
 }
 .footer ul {
 	list-style: none;
